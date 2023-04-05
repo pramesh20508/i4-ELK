@@ -1,0 +1,6 @@
+
+elasticsearch.hosts: ['https://172.26.18.207:9200']
+elasticsearch.serviceAccountToken: AAEAAWVsYXN0aWMva2liYW5hL2Vucm9sbC1wcm9jZXNzLXRva2VuLTE2ODAyMjM1NTU1NzU6SVZtemRaS3NSTXFnYVo5Nk02ZldLZw
+elasticsearch.ssl.certificateAuthorities: [/Users/praveenramesh/kibana-8.7.0/data/ca_1680223556200.crt]
+xpack.fleet.outputs: [{id: fleet-default-output, name: default, is_default: true, is_default_monitoring: true, type: elasticsearch, hosts: ['https://172.26.18.207:9200'], ca_trusted_fingerprint: 42bd9bdb03e3148e21bc364dec8c7fe8381bf920a0f7a994bc1c9d0fe6eab62c}]
+
